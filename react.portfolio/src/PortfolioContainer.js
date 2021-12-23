@@ -1,3 +1,4 @@
+import { model } from 'mongoose';
 import BudgetTracker from './assets/images/BudgetTracker.jpg';
 import Clique from './assets/images/CliqueHomepage.jpg';
 import FitnessTracker from './assets/images/FitnessTracker.jpg';
@@ -36,9 +37,20 @@ const Projects = [
   },
   {
     id: 5,
-    name: 'TeamProfileGenerator',
+    name: 'PrimeTime',
     site: 'https://watch.screencastify.com/v/JR5J0pEncaf5cBiIntFN',
     github: 'https://github.com/fons3517/Team-Profile-Generator',
     image: NoteTaker,
-  }
+  },
+
+  {
+    id: 6,
+    name: 'TeamProfileGenerator',
+    site: 'https://fons3517.github.io/Project1-PrimeTime/',
+    github: 'https://github.com/fons3517/Project1-PrimeTime',
+    image: NoteTaker,
+  },
+
 ];
+
+export default Projects;
